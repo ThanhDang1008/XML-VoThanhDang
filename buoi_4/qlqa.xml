@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QUANAN xmlns="http://www.example.com/quanan" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.com/quanan quanan.xsd">
+    <BAN>
+        <TENBAN>Bàn 1</TENBAN>
+        <SOBAN>1</SOBAN>
+    </BAN>
+    <BAN>
+        <TENBAN>Bàn 2</TENBAN>
+        <SOBAN>2</SOBAN>
+    </BAN>
+    <BAN>
+        <TENBAN>Bàn 3</TENBAN>
+        <SOBAN>3</SOBAN>
+    </BAN>
+    <BAN>
+        <TENBAN>Bàn 4</TENBAN>
+        <SOBAN>4</SOBAN>
+    </BAN>
+    <BAN>
+        <TENBAN>Bàn 5</TENBAN>
+        <SOBAN>5</SOBAN>
+    </BAN>
+
+    <THANHTOAN>
+        <SOHD>1001</SOHD>
+        <NGAYLAP>2025-09-30</NGAYLAP>
+        <TONGTIEN>150000.50</TONGTIEN>
+    </THANHTOAN>
+    <THANHTOAN>
+        <SOHD>1002</SOHD>
+        <NGAYLAP>2025-09-29</NGAYLAP>
+        <TONGTIEN>200000.75</TONGTIEN>
+    </THANHTOAN>
+    <THANHTOAN>
+        <SOHD>1003</SOHD>
+        <NGAYLAP>2025-09-28</NGAYLAP>
+        <TONGTIEN>180000.25</TONGTIEN>
+    </THANHTOAN>
+    <THANHTOAN>
+        <SOHD>1004</SOHD>
+        <NGAYLAP>2025-09-27</NGAYLAP>
+        <TONGTIEN>220000.00</TONGTIEN>
+    </THANHTOAN>
+    <THANHTOAN>
+        <SOHD>1005</SOHD>
+        <NGAYLAP>2025-09-26</NGAYLAP>
+        <TONGTIEN>190000.80</TONGTIEN>
+    </THANHTOAN>
+
+    <HOADON>
+        <SOHD>1001</SOHD>
+        <NGAYLAP>2025-09-30</NGAYLAP>
+        <TONGTIEN>150000.50</TONGTIEN>
+    </HOADON>
+    <HOADON>
+        <SOHD>1002</SOHD>
+        <NGAYLAP>2025-09-29</NGAYLAP>
+        <TONGTIEN>200000.75</TONGTIEN>
+    </HOADON>
+    <HOADON>
+        <SOHD>1003</SOHD>
+        <NGAYLAP>2025-09-28</NGAYLAP>
+        <TONGTIEN>180000.25</TONGTIEN>
+    </HOADON>
+    <HOADON>
+        <SOHD>1004</SOHD>
+        <NGAYLAP>2025-09-27</NGAYLAP>
+        <TONGTIEN>220000.00</TONGTIEN>
+    </HOADON>
+    <HOADON>
+        <SOHD>1005</SOHD>
+        <NGAYLAP>2025-09-26</NGAYLAP>
+        <TONGTIEN>190000.80</TONGTIEN>
+    </HOADON>
+
+    <MON>
+        <MAMON>M001</MAMON>
+        <TENMON>Phở Bò</TENMON>
+        <GIA>50000.00</GIA>
+        <HINHANH>Món phở bò ngon</HINHANH>
+    </MON>
+    <MON>
+        <MAMON>M002</MAMON>
+        <TENMON>Bún Chả</TENMON>
+        <GIA>45000.00</GIA>
+        <HINHANH>Món bún chả hấp dẫn</HINHANH>
+    </MON>
+    <MON>
+        <MAMON>M003</MAMON>
+        <TENMON>Cơm Gà</TENMON>
+        <GIA>40000.00</GIA>
+        <HINHANH>Món cơm gà thơm ngon</HINHANH>
+    </MON>
+    <MON>
+        <MAMON>M004</MAMON>
+        <TENMON>Chả Giò</TENMON>
+        <GIA>35000.00</GIA>
+        <HINHANH>Món chả giò giòn rụm</HINHANH>
+    </MON>
+    <MON>
+        <MAMON>M005</MAMON>
+        <TENMON>Nước Lèo</TENMON>
+        <GIA>30000.00</GIA>
+        <HINHANH>Món nước lèo đặc biệt</HINHANH>
+    </MON>
+
+    <NHANVIEN>
+        <MANV>NV001</MANV>
+        <TENNV>Nguyen Van A</TENNV>
+        <SDT>0901234567</SDT>
+        <DIACHI>123 Đường A</DIACHI>
+        <GIOITINH>Nam</GIOITINH>
+        <USERNAME>nguyena</USERNAME>
+        <PASSWORD>pass123</PASSWORD>
+    </NHANVIEN>
+    <NHANVIEN>
+        <MANV>NV002</MANV>
+        <TENNV>Tran Thi B</TENNV>
+        <SDT>0901234568</SDT>
+        <DIACHI>456 Đường B</DIACHI>
+        <GIOITINH>Nữ</GIOITINH>
+        <USERNAME>tranb</USERNAME>
+        <PASSWORD>pass456</PASSWORD>
+    </NHANVIEN>
+    <NHANVIEN>
+        <MANV>NV003</MANV>
+        <TENNV>Le Van C</TENNV>
+        <SDT>0901234569</SDT>
+        <DIACHI>789 Đường C</DIACHI>
+        <GIOITINH>Nam</GIOITINH>
+        <USERNAME>levanc</USERNAME>
+        <PASSWORD>pass789</PASSWORD>
+    </NHANVIEN>
+    <NHANVIEN>
+        <MANV>NV004</MANV>
+        <TENNV>Pham Thi D</TENNV>
+        <SDT>0901234570</SDT>
+        <DIACHI>101 Đường D</DIACHI>
+        <GIOITINH>Nữ</GIOITINH>
+        <USERNAME>phamd</USERNAME>
+        <PASSWORD>pass101</PASSWORD>
+    </NHANVIEN>
+    <NHANVIEN>
+        <MANV>NV005</MANV>
+        <TENNV>Hoang Van E</TENNV>
+        <SDT>0901234571</SDT>
+        <DIACHI>202 Đường E</DIACHI>
+        <GIOITINH>Nam</GIOITINH>
+        <USERNAME>hoange</USERNAME>
+        <PASSWORD>pass202</PASSWORD>
+    </NHANVIEN>
+
+    <SOLUONG>
+        <SOHD>1001</SOHD>
+        <MAMON>M001</MAMON>
+        <SOLUONG>2</SOLUONG>
+    </SOLUONG>
+    <SOLUONG>
+        <SOHD>1002</SOHD>
+        <MAMON>M002</MAMON>
+        <SOLUONG>3</SOLUONG>
+    </SOLUONG>
+    <SOLUONG>
+        <SOHD>1003</SOHD>
+        <MAMON>M003</MAMON>
+        <SOLUONG>1</SOLUONG>
+    </SOLUONG>
+    <SOLUONG>
+        <SOHD>1004</SOHD>
+        <MAMON>M004</MAMON>
+        <SOLUONG>4</SOLUONG>
+    </SOLUONG>
+    <SOLUONG>
+        <SOHD>1005</SOHD>
+        <MAMON>M005</MAMON>
+        <SOLUONG>2</SOLUONG>
+    </SOLUONG>
+</QUANAN>
